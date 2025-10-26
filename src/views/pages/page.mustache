@@ -17,4 +17,13 @@
     {{/list}}
 </div>
 
+<!-- Criando a amostra da pagina qnd dig item q n tem na list-->
+
+{{^list}}
+<div class="container no-list">
+    <h2>Não há animais disponíveis nestas condições.</h2>
+</div>
+{{/list}}
+
+
 {{>partials/footer}}

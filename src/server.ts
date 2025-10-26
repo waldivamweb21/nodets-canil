@@ -22,7 +22,9 @@ server.use(mainRoutes);
 
 
 server.use((req,res) => {
-    res.send('página não encontrada!');
+    //res.send('página não encontrada!');
+    res.render('pages/404');
+
 });
 
 

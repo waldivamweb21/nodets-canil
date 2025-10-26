@@ -1,0 +1,10 @@
+Para iniciar o Git em um projeto já existente, abra o terminal na pasta raiz do projeto e execute git init. Em seguida, adicione todos os arquivos ao índice com git add . e confirme as alterações com um commit usando git commit -m "Mensagem". 
+
+descobri que o fluxo de trabalho deveria ser assim:
+
+git init
+git config user.name "someone"
+git config user.email "someone@someplace.com"
+git add * ou git add .
+git commit -m "some init msg"
+git push
